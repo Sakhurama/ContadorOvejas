@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #7FC9EA;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: "Butterfly Kids", cursive;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: #7FC9EA;
+    font-size: 1.5rem;
+    font-weight: 600;
+    box-shadow: 0 5px 10px rgba(5, 138, 216, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
