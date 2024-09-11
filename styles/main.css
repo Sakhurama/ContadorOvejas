@@ -17,6 +17,17 @@ main {
     padding-right: 20px;
 }
 
+#sheep-img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    gap: 5px;
+}
+
+.sheep {
+    width: 110px;
+}
+
 #count {
     font-size: 15rem;
     font-family: "Butterfly Kids", cursive;
