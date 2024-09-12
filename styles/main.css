@@ -17,20 +17,55 @@ main {
     padding-right: 20px;
 }
 
-#sheep-img {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 500px;
-    gap: 5px;
+#container-oveja-saltando{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
 }
 
-.sheep {
+.oveja-saltando{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: -100px;
+    animation: sheepJump 2s ease-in-out forwards;
+}
+
+@keyframes sheepJump{
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(calc(25vw)) translateY(-100px);
+    }
+    50% {
+        transform: translateX(calc(50vw)) translateY(-50px);
+    }
+    75% {
+        transform: translateX(calc(75vw)) translateY(-100px);
+    }
+    100% {
+        transform: translateX(calc(100vw + 100px)) translateY(0);
+    }
+}
+
+.sheep-count {
     width: 110px;
 }
 
+.container-count{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
 #count {
-    font-size: 15rem;
-    font-family: "Butterfly Kids", cursive;
+    font-size: 11rem;
+    max-height: 250;
 }
 
 .buttons-count {
