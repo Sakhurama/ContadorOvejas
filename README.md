@@ -1,6 +1,6 @@
 <h1>Contador de ovejas</h1>
 <p>Accede a esta app haciendo clic en la oveja:</p>
-<a href="" tarjet="_blank"><img src="./images/sheep.png"/></a>
+<a href="" tarjet="_blank"><img src="./images/sheep.png" widht="400"/></a>
 
 <br/> <br/>
 ## ¿Cómo se hizo?
