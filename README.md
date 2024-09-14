@@ -1,6 +1,6 @@
 <h1>Contador de ovejas</h1>
 <p>Accede a esta app haciendo clic en la oveja:</p>
-<a href="" tarjet="_blank"><img src="./images/sheep.png" width="400" height="400"/></a>
+<a href="https://sakhurama.github.io/ContadorOvejas/" tarjet="_blank"><img src="./images/sheep.png" width="300" height="300"/></a>
 
 <br/> <br/>
 ## ¿Cómo se hizo?
