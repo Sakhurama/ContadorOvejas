@@ -3,5 +3,5 @@
 ![Logo de la empresa](./images/sheep.png)
 
 <br/> <br/>
-###¿Cómo se hizo?
+¿Cómo se hizo?
 <p>Este proyecto es con el fin de reforzar conocimientos básicos en desarrollo Frontend, por eso está contruida con Html, CSS y Javascript Vanilla.</p>
